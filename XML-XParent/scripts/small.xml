@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <Mpeg7 xmlns="http://www.mpeg7.org/2001/MPEG-7_Schema"
+         xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance">
+    <DescriptionUnit xsi:type="DescriptorCollectionType">
+      <Descriptor size="5" xsi:type="DominantColorType">
+        <ColorSpace type="HSV" colorReferenceFlag="false"/>
+        <SpatialCoherency>0</SpatialCoherency>
+        <Values>
+        <Percentage>2</Percentage>
+        <Index>10 6 0</Index>
+        </Values>
+        <Values>
+          <Percentage>15</Percentage>
+          <Index>6 16 9</Index>
+        </Values>
+        <Values>
+          <Percentage>3</Percentage>
+          <Index>7 18 4</Index>
+      </Values>
+    </Descriptor>
+  </DescriptionUnit>
+</Mpeg7>
+ 

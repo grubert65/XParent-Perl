@@ -1,0 +1,9 @@
+---
+schema_params:
+    - 'dbi:Pg:dbname=xparent'
+#    - 'dbi:SQLite:xparent.db'
+    - grubert
+    - grubert
+    -
+        AutoCommit: 1
+#plugins:
