@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2004" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2004 avdp-2010.xsd">  
+  <DescriptionProfile profileAndLevelIndication="urn:mpeg:mpeg7:profiles:2011:AVDP"/>  
+  <DescriptionMetadata>    
+    <PrivateIdentifier>PID_33</PrivateIdentifier>    
+    <Instrument>      
+      <Tool>        
+        <Name>GUI Protype Tool</Name>      
+      </Tool>    
+    </Instrument>  
+  </DescriptionMetadata>  
+  <Description xsi:type="mpeg7:ContentEntityType">    
+    <MultimediaContent xsi:type="mpeg7:AudioVisualType">      
+      <AudioVisual id="AVID_1" mediaTimeBase="mpeg7:MediaInformation/mpeg7:MediaProfile/mpeg7:MediaInstance/mpeg7:MediaLocator" mediaTimeUnit="PT1N25F">        
+        <MediaInformation>          
+          <MediaProfile>            
+            <MediaFormat>              
+              <Content href="urn:mpeg:mpeg7:cs:ContentCS:2001:2">                
+                <Name>Audiovisual</Name>              
+              </Content>              
+              <FileSize>500872992</FileSize>            
+            </MediaFormat>            
+            <MediaInstance>              
+              <InstanceIdentifier/>              
+              <MediaLocator>                
+                <MediaUri>Fascinate.avi</MediaUri>              
+              </MediaLocator>            
+            </MediaInstance>          
+          </MediaProfile>        
+        </MediaInformation>        
+        <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:av.programme">          
+          <Name>Programme</Name>        
+        </StructuralUnit>        
+        <CreationInformation>          
+          <Creation>            
+            <Title>Undefined</Title>          
+          </Creation>        
+        </CreationInformation>        
+        <MediaTime>          
+          <MediaRelIncrTimePoint>0</MediaRelIncrTimePoint>          
+          <MediaIncrDuration>2141</MediaIncrDuration>        
+        </MediaTime>      
+        <TemporalDecomposition criteria="urn:x-davp_criteria:events" id="VSID_1_TD_S1">
+          <Header xsi:type="mpeg7:DescriptionMetadataType">
+            <Instrument>
+              <Tool>
+                <Name>GuiPrototype</Name>
+              </Tool>
+            </Instrument>
+          </Header>
+          <AudioVisualSegment id="VSID_1TRE672_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#free-kick"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>672</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+            <MediaSourceDecomposition criteria="http://www.ebu.ch/metadata/cs/mpeg/avdp/DecompositionCS#10" id="VSID_1TR672_MSD_mod">
+              <VideoSegment id="VSID_1TRS672_V">
+                <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+                <MediaTime>
+                  <MediaRelIncrTimePoint>672</MediaRelIncrTimePoint>
+                  <MediaIncrDuration>1</MediaIncrDuration>
+                </MediaTime>
+                <SpatioTemporalDecomposition criteria="urn:x-davp_criteria:movingRegions" id="VSID_1TRS672_STD_1">
+                  <MovingRegion id="MRID_S672_1">
+                    <StructuralUnit href="http://www.ebu.ch/metadata/cs/mpeg/avdp/StructuralUnitCS#30.1"/>
+                    <SpatioTemporalLocator>
+                      <ParameterTrajectory motionModel="still">
+                        <MediaTime>
+                          <MediaRelIncrTimePoint>672</MediaRelIncrTimePoint>
+                          <MediaIncrDuration>1</MediaIncrDuration>
+                        </MediaTime>
+                        <InitialRegion>
+                          <Polygon>
+                            <Coords dim="2 4">2556 150 0 -150 952 0 75 0</Coords>
+                          </Polygon>
+                        </InitialRegion>
+                      </ParameterTrajectory>
+                    </SpatioTemporalLocator>
+                  </MovingRegion>
+                </SpatioTemporalDecomposition>
+              </VideoSegment>
+            </MediaSourceDecomposition>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE747_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#direction-right"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>747</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+            <MediaSourceDecomposition criteria="http://www.ebu.ch/metadata/cs/mpeg/avdp/DecompositionCS#10" id="VSID_1TR747_MSD_mod">
+              <VideoSegment id="VSID_1TRS747_V">
+                <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+                <MediaTime>
+                  <MediaRelIncrTimePoint>747</MediaRelIncrTimePoint>
+                  <MediaIncrDuration>1</MediaIncrDuration>
+                </MediaTime>
+                <SpatioTemporalDecomposition criteria="urn:x-davp_criteria:movingRegions" id="VSID_1TRS747_STD_1">
+                  <MovingRegion id="MRID_S747_1">
+                    <StructuralUnit href="http://www.ebu.ch/metadata/cs/mpeg/avdp/StructuralUnitCS#30.1"/>
+                    <SpatioTemporalLocator>
+                      <ParameterTrajectory motionModel="still">
+                        <MediaTime>
+                          <MediaRelIncrTimePoint>747</MediaRelIncrTimePoint>
+                          <MediaIncrDuration>1</MediaIncrDuration>
+                        </MediaTime>
+                        <InitialRegion>
+                          <Polygon>
+                            <Coords dim="2 4">3515 150 0 -150 925 0 75 0</Coords>
+                          </Polygon>
+                        </InitialRegion>
+                      </ParameterTrajectory>
+                    </SpatioTemporalLocator>
+                  </MovingRegion>
+                </SpatioTemporalDecomposition>
+              </VideoSegment>
+            </MediaSourceDecomposition>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE868_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#shot"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>868</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+            <MediaSourceDecomposition criteria="http://www.ebu.ch/metadata/cs/mpeg/avdp/DecompositionCS#10" id="VSID_1TR868_MSD_mod">
+              <VideoSegment id="VSID_1TRS868_V">
+                <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+                <MediaTime>
+                  <MediaRelIncrTimePoint>868</MediaRelIncrTimePoint>
+                  <MediaIncrDuration>1</MediaIncrDuration>
+                </MediaTime>
+                <SpatioTemporalDecomposition criteria="urn:x-davp_criteria:movingRegions" id="VSID_1TRS868_STD_1">
+                  <MovingRegion id="MRID_S868_1">
+                    <StructuralUnit href="http://www.ebu.ch/metadata/cs/mpeg/avdp/StructuralUnitCS#30.1"/>
+                    <SpatioTemporalLocator>
+                      <ParameterTrajectory motionModel="still">
+                        <MediaTime>
+                          <MediaRelIncrTimePoint>868</MediaRelIncrTimePoint>
+                          <MediaIncrDuration>1</MediaIncrDuration>
+                        </MediaTime>
+                        <InitialRegion>
+                          <Polygon>
+                            <Coords dim="2 4">4273 150 0 -150 920 0 75 0</Coords>
+                          </Polygon>
+                        </InitialRegion>
+                      </ParameterTrajectory>
+                    </SpatioTemporalLocator>
+                  </MovingRegion>
+                </SpatioTemporalDecomposition>
+              </VideoSegment>
+            </MediaSourceDecomposition>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE966_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#out-of-bounds"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>966</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE1002_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#out-of-bounds"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>1002</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE1070_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#salient"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>1070</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE1339_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#sideline-action"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>1339</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+          </AudioVisualSegment>
+          <AudioVisualSegment id="VSID_1TRE1494_AV">
+            <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+            <TextAnnotation confidence="0.9">
+              <StructuredAnnotation>
+                <WhatAction href="http://www.fascinate-project.eu/terms/soccer#injury"/>
+              </StructuredAnnotation>
+            </TextAnnotation>
+            <MediaTime>
+              <MediaRelIncrTimePoint>1494</MediaRelIncrTimePoint>
+              <MediaIncrDuration>1</MediaIncrDuration>
+            </MediaTime>
+            <MediaSourceDecomposition criteria="http://www.ebu.ch/metadata/cs/mpeg/avdp/DecompositionCS#10" id="VSID_1TR1494_MSD_mod">
+              <VideoSegment id="VSID_1TRS1494_V">
+                <StructuralUnit href="urn:x-mpeg-7-davp:cs:StructuralUnitCS:2005:vis.clip"/>
+                <MediaTime>
+                  <MediaRelIncrTimePoint>1494</MediaRelIncrTimePoint>
+                  <MediaIncrDuration>1</MediaIncrDuration>
+                </MediaTime>
+                <SpatioTemporalDecomposition criteria="urn:x-davp_criteria:movingRegions" id="VSID_1TRS1494_STD_1">
+                  <MovingRegion id="MRID_S1494_1">
+                    <StructuralUnit href="http://www.ebu.ch/metadata/cs/mpeg/avdp/StructuralUnitCS#30.1"/>
+                    <SpatioTemporalLocator>
+                      <ParameterTrajectory motionModel="still">
+                        <MediaTime>
+                          <MediaRelIncrTimePoint>1494</MediaRelIncrTimePoint>
+                          <MediaIncrDuration>1</MediaIncrDuration>
+                        </MediaTime>
+                        <InitialRegion>
+                          <Polygon>
+                            <Coords dim="2 4">4123 250 0 -250 1021 0 125 0</Coords>
+                          </Polygon>
+                        </InitialRegion>
+                      </ParameterTrajectory>
+                    </SpatioTemporalLocator>
+                  </MovingRegion>
+                </SpatioTemporalDecomposition>
+              </VideoSegment>
+            </MediaSourceDecomposition>
+          </AudioVisualSegment>
+        </TemporalDecomposition>
+      </AudioVisual>    
+    </MultimediaContent>  
+  </Description>
+</Mpeg7>
