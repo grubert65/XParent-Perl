@@ -13,7 +13,11 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
+        'Test::More'                        => 0,
+        'DBIx::Class'                       => 0,
+        'DBIx::Class::Tree::AdjacencyList'  => 0,
+        'XML::XParent'                      => 0,
+        'Log::Log4perl'                     => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'XML-XParent-Schema-DBIx-*' },

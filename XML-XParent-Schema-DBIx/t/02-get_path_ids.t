@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+no warnings 'experimental';
 use Test::More;
 use DBI;
 
